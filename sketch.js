@@ -12,11 +12,11 @@ var gameState = "onSling";
 var bg = "sprites/bg1.png";
 var score = 0;
 
-function preload() {
-    bg = "sprites/bg2.jpg";
-    backgroundImg = loadImage(bg);
+// function preload() {
+//     bg = "sprites/bg2.jpg";
+//     backgroundImg = loadImage(bg);
     
-}
+// }
 
 function setup(){
     var canvas = createCanvas(1200,400);
@@ -49,8 +49,7 @@ function setup(){
 }
 
 function draw(){
-    if(backgroundImg)
-        background(backgroundImg);
+   background("blue");
     
         noStroke();
         textSize(35)
